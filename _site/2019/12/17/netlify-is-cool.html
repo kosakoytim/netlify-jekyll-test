@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+    <nav>
+    
+        <a href="/" >Home</a>
+    
+        <a href="/about.html" >About</a>
+    
+        <a href="/blog.html" >Blog</a>
+    
+        <a href="/staff.html" >Staff</a>
+    
+</nav>
+
+    <h1>Netlify is cool</h1>
+
+<p>
+    17 Dec 2019
+    
+    
+    - <a href="/authors/jill.html">Jill Smith</a>
+    
+</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras varius placerat sem, sit amet porta velit dapibus sollicitudin. Nullam finibus nisi sed sem lacinia eleifend. Proin non rutrum est, eget varius nibh. Ut sollicitudin dignissim ex, sit amet gravida metus laoreet id. Fusce urna purus, faucibus ac tellus vitae, euismod hendrerit dui. Pellentesque efficitur mi vestibulum magna tristique vulputate. Morbi sed placerat sapien. Ut sollicitudin id tellus in sollicitudin. Praesent enim felis, varius sed nunc id, hendrerit suscipit justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in urna ac mi pulvinar volutpat.</p>
+
+<p><img src="/assets/uploads/no-connection.png" alt="astronot" title="astronotnya kode" /></p>
+
+<p>Sed a libero finibus, interdum massa egestas, pretium arcu. Vivamus vel enim id felis dictum viverra. Nulla eget ipsum malesuada, eleifend sem quis, lacinia ex. Morbi tincidunt, enim in condimentum elementum, sapien nulla tristique tellus, eu imperdiet risus dolor commodo risus. Praesent ipsum mi, auctor quis purus nec, fermentum imperdiet leo. Fusce eu mauris porta risus tempus venenatis nec interdum tortor. Quisque sed dignissim tellus. Donec a semper dolor. Vestibulum tristique leo mi, at mollis nibh ullamcorper vitae. Ut ac tempus diam. Donec tristique massa lectus, at tristique magna dignissim vel. Praesent et felis consectetur, finibus elit nec, fringilla quam.</p>
+
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+</body>
+</html>
